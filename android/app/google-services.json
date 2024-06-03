@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "483365822739",
+    "project_id": "redooceit-d3385",
+    "storage_bucket": "redooceit-d3385.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483365822739:android:5e09373a1571b061713ae6",
+        "android_client_info": {
+          "package_name": "com.fawazalrasyid.redooceit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxxR8xg06hJ2bOc4VLpgplKICKH8BieFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

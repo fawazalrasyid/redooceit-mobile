@@ -1,0 +1,61 @@
+name: redooceit
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.2
+  iconly: ^1.0.1
+  intl: ^0.17.0
+  iconsax: ^0.0.8
+  cloud_firestore: ^4.13.6
+  date_time_picker: ^2.1.0
+  fluttertoast: ^8.2.2
+  firebase_analytics: ^10.1.5
+  firebase_auth: ^4.2.10
+  firebase_core: ^2.7.1
+  statusbarz: ^1.0.14
+  cached_network_image: ^3.3.1
+  grouped_list: ^5.1.2
+  dropdown_search: ^5.0.6
+  step_progress_indicator: ^1.0.2
+  timeline_tile: ^2.0.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/redooceit_app_icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/images/redooceit_app_icon.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/images/redooceit_app_icon.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/images/redooceit_app_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: DM Sans
+      fonts:
+        - asset: assets/fonts/DMSans-Regular.ttf
