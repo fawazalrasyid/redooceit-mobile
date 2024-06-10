@@ -143,18 +143,4 @@ class ActivityLogController extends GetxController {
 
     isLoading.value = false;
   }
-
-  getData() async {
-    final FirebaseFirestore firestore = FirebaseFirestore.instance;
-    List<QueryDocumentSnapshot> _activityDocuments = [];
-    bool _isLoading = false;
-
-    final QuerySnapshot activitySnapshot = await firestore
-        .collection('activity_log')
-        .orderBy('date', descending: true)
-        .limit(20)
-        .get();
-
-    _activityDocuments = activitySnapshot.docs;
-  }
 }

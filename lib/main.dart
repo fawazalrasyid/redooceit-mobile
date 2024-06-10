@@ -19,4 +19,29 @@ Future<void> main() async {
   await initializeDateFormatting();
   Intl.defaultLocale = 'id';
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  runApp(
+    StatusbarzCapturer(
+      child: GetMaterialApp(
+        navigatorObservers: [Statusbarz.instance.observer],
+        debugShowCheckedModeBanner: false,
+        title: "RedooceIt",
+        initialRoute: AppPages.INITIAL,
+        getPages: AppPages.routes,
+        theme: ThemeData(
+          brightness: Brightness.light,
+          scaffoldBackgroundColor: AppColors.pageBackground,
+          primarySwatch: AppColors.colorPrimarySwatch,
+          primaryColor: AppColors.colorPrimary,
+          visualDensity: VisualDensity.adaptivePlatformDensity,
+          appBarTheme: const AppBarTheme(
+            systemOverlayStyle: SystemUiOverlayStyle(
+              statusBarColor: Colors.transparent,
+              statusBarBrightness: Brightness.dark,
+              statusBarIconBrightness: Brightness.dark,
+            ),
+          ),
+        ),
+      ),
+    ),
+  );
 }

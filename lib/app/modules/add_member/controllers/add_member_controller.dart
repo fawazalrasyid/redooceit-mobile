@@ -38,33 +38,4 @@ class AddMemberController extends GetxController {
         rwCtrl.text.isNotEmpty &&
         addressCtrl.text.isNotEmpty;
   }
-
-  void saveMember() {
-    isLoading.value = true;
-
-    final memberRef = FirebaseFirestore.instance.collection('members');
-
-    final memberId = memberRef.doc().id;
-
-    final memberData = {
-      'id': memberId,
-      'name': nameCtrl.text,
-      'photo_url': Helpers.generatePhotoUrl(nameCtrl.text),
-      'phone_number': phoneNumberCtrl.text,
-      'address': addressCtrl.text,
-      'rt': int.parse(rtCtrl.text).toString(),
-      'rw': int.parse(rwCtrl.text).toString(),
-      'total_stamp': 0,
-      'created_at': DateTime.now().toIso8601String(),
-    };
-
-    memberRef.doc(memberId).set(memberData).then((_) {
-      Fluttertoast.showToast(msg: 'Data berhasil disimpan');
-      Get.back(result: true);
-    }).catchError((e) {
-      Fluttertoast.showToast(msg: 'Gagal menyimpan data!');
-    });
-
-    isLoading.value = false;
-  }
 }
