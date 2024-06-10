@@ -8,7 +8,7 @@
 [Redooceit](https://aimeos.org/TYPO3)  adalah Aplikasi tata kelola sampah makanan dengan monitoring, controlling, dan analisis untuk membantu TPS meningkatkan nilai dari sampah makanan menjadi nilai ekonomi yang tinggi
 
 
-![aimeos-frontend](/assets/images/redooceit_logo.png)
+![aimeos-frontend](/assets/images/home.png)
 
 ## Installation
 
