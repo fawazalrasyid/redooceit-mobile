@@ -6,6 +6,7 @@ import 'package:iconsax/iconsax.dart';
 import 'package:redooceit/app/modules/activity_log/views/activity_log_view.dart';
 import 'package:redooceit/app/modules/coming_soon/views/coming_soon_view.dart';
 import 'package:redooceit/app/modules/profile/views/profile_view.dart';
+import 'package:redooceit/app/modules/report/views/report_view.dart';
 
 import '../../../core/values/app_colors.dart';
 import '../../home/views/home_view.dart';
@@ -24,7 +25,7 @@ class MainView extends GetView<MainController> {
             index: controller.tabIndex.value,
             children: [
               HomeView(),
-              const ComingSoonView(),
+              const ReportView(),
               ActivityLogView(),
               ProfileView()
             ],

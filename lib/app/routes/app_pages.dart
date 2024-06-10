@@ -26,6 +26,8 @@ import '../modules/profile/bindings/profile_binding.dart';
 import '../modules/profile/views/profile_view.dart';
 import '../modules/register/bindings/register_binding.dart';
 import '../modules/register/views/register_view.dart';
+import '../modules/report/bindings/report_binding.dart';
+import '../modules/report/views/report_view.dart';
 import '../modules/splash/bindings/splash_binding.dart';
 import '../modules/splash/views/splash_view.dart';
 import '../modules/waste_deposit/bindings/waste_deposit_binding.dart';
@@ -120,6 +122,11 @@ class AppPages {
       name: _Paths.ADD_BIOPOND_MAGGOT_HARVEST_LOG,
       page: () => const AddBiopondMaggotHarvestLogView(),
       binding: AddBiopondMaggotHarvestLogBinding(),
+    ),
+    GetPage(
+      name: _Paths.REPORT,
+      page: () => const ReportView(),
+      binding: ReportBinding(),
     ),
   ];
 }

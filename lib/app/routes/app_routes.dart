@@ -21,6 +21,7 @@ abstract class Routes {
   static const ADD_MEMBER = _Paths.ADD_MEMBER;
   static const ADD_BIOPOND_MAGGOT_HARVEST_LOG =
       _Paths.ADD_BIOPOND_MAGGOT_HARVEST_LOG;
+  static const REPORT = _Paths.REPORT;
 }
 
 abstract class _Paths {
@@ -43,4 +44,5 @@ abstract class _Paths {
   static const ADD_MEMBER = '/add-member';
   static const ADD_BIOPOND_MAGGOT_HARVEST_LOG =
       '/add-biopond-maggot-harvest-log';
+  static const REPORT = '/report';
 }
