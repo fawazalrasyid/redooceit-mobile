@@ -14,6 +14,7 @@ import 'app/routes/app_pages.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
+    name: 'Redooceit',
     options: DefaultFirebaseOptions.currentPlatform,
   );
   await initializeDateFormatting();
@@ -24,7 +25,7 @@ Future<void> main() async {
       child: GetMaterialApp(
         navigatorObservers: [Statusbarz.instance.observer],
         debugShowCheckedModeBanner: false,
-        title: "RedooceIt",
+        title: "Redooceit",
         initialRoute: AppPages.INITIAL,
         getPages: AppPages.routes,
         theme: ThemeData(
