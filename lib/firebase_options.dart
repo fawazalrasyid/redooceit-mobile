@@ -44,38 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCYs5jsWptsHz5DK3fZc1EYscef7s52JWg',
-    appId: '1:483365822739:web:5cd1c47bc3bbd402713ae6',
-    messagingSenderId: '483365822739',
-    projectId: 'redooceit-d3385',
-    authDomain: 'redooceit-d3385.firebaseapp.com',
-    storageBucket: 'redooceit-d3385.appspot.com',
-    measurementId: 'G-23T6LYML01',
+    apiKey: 'AIzaSyCu_mdVZqhRdahVntYjhHcWW3Ai0nhpuQA',
+    appId: '1:522880057613:web:6e222410f9bcd785a87044',
+    messagingSenderId: '522880057613',
+    projectId: 'redooceit-abp',
+    authDomain: 'redooceit-abp.firebaseapp.com',
+    storageBucket: 'redooceit-abp.appspot.com',
+    measurementId: 'G-8KLLJ80EGL',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBxxR8xg06hJ2bOc4VLpgplKICKH8BieFM',
-    appId: '1:483365822739:android:5e09373a1571b061713ae6',
-    messagingSenderId: '483365822739',
-    projectId: 'redooceit-d3385',
-    storageBucket: 'redooceit-d3385.appspot.com',
+    apiKey: 'AIzaSyDQWwqxbq8mx-HybK4Jn5OctfyJ8OSnYnc',
+    appId: '1:522880057613:android:fde263e0dbeaace8a87044',
+    messagingSenderId: '522880057613',
+    projectId: 'redooceit-abp',
+    storageBucket: 'redooceit-abp.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBqmViOQOhxAJMbkSK7BroKuQMWBL_3zEc',
-    appId: '1:483365822739:ios:630e003ec5d85edc713ae6',
-    messagingSenderId: '483365822739',
-    projectId: 'redooceit-d3385',
-    storageBucket: 'redooceit-d3385.appspot.com',
+    apiKey: 'AIzaSyCRwHplWla_fsn901Ug5soOyBNkf9eO210',
+    appId: '1:522880057613:ios:f14c3b0c3ae2cffba87044',
+    messagingSenderId: '522880057613',
+    projectId: 'redooceit-abp',
+    storageBucket: 'redooceit-abp.appspot.com',
     iosBundleId: 'com.fawazalrasyid.redooceit',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBqmViOQOhxAJMbkSK7BroKuQMWBL_3zEc',
-    appId: '1:483365822739:ios:65c82a03cd60a4c0713ae6',
-    messagingSenderId: '483365822739',
-    projectId: 'redooceit-d3385',
-    storageBucket: 'redooceit-d3385.appspot.com',
+    apiKey: 'AIzaSyCRwHplWla_fsn901Ug5soOyBNkf9eO210',
+    appId: '1:522880057613:ios:024db49b96653066a87044',
+    messagingSenderId: '522880057613',
+    projectId: 'redooceit-abp',
+    storageBucket: 'redooceit-abp.appspot.com',
     iosBundleId: 'com.fawazalrasyid.redooceit.RunnerTests',
   );
 }

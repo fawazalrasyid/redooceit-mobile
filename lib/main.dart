@@ -14,6 +14,7 @@ import 'app/routes/app_pages.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
+    name: 'RedooceIt',
     options: DefaultFirebaseOptions.currentPlatform,
   );
   await initializeDateFormatting();
