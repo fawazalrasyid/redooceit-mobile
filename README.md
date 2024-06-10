@@ -1,16 +1,18 @@
-# Tugas Akhir ABP redooceit
+<a href="https://aimeos.org/">
+    <img src="../redooceit-mobile/assets/images/redooceit_logo.png" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
+</a>
 
-A new Flutter project.
+# Redooceit
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+[Redooceit](https://aimeos.org/TYPO3)  adalah Aplikasi tata kelola sampah makanan dengan monitoring, controlling, dan analisis untuk membantu TPS meningkatkan nilai dari sampah makanan menjadi nilai ekonomi yang tinggi
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![aimeos-frontend](../redooceit-mobile/assets/images/home.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+This document is for the latest Flutter and Laravel 
+
+
+
